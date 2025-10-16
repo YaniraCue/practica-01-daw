@@ -3,10 +3,10 @@ Repositorio para la practica 01 de Despliegue de Aplicaciones Web
 
 Esta práctica se realizo un despliegue de una pila LAMP  sobre una instancia virtual de Ubuntu Server alojada en AWS EC2, se realizo todo el proceso mediante scripts desde la terminal de code.
 
-## Paso1 
+# Parte 1
 Se creo una instancia virtual en AWS EC2 utilizando una imagen de Ubuntu Server actualizada. Durante la configuración de la instancia, se habilitaron los puertos necesarios para permitir conexiones SSH y para que los servicios web funcionaran correctamente a través de HTTP y HTTPS. Se hizo una clave vockey para poder conectarse de forma segura a la instancia, y se asigno una direccion IP elastica para que la maquina tuviera una dirección fija.
 
-# Paso 2 
+# Parte 2 
 La instalacion de la pila LAMP se realizo mediante un script, donde se ejecutaron una serie de comandos.
 
 Con el set -ex, garantiza que al ejecutar cualquier comando debe detenerse si ocurre algun error y que se muestren en pantalla todos los comandos a medida que se ejecutan. 
@@ -25,8 +25,8 @@ Esta secuencia automatiza la instalacion y configuracion basica de la pila LAMP,
 
 
 # Captura 1
-![](images/captura01.pnp)
+![](images/captura1.png)
 
 
 # Captura 2
-![](images/captura02.php)
+![](images/captura2.png)
